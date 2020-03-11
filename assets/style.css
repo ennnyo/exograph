@@ -174,7 +174,15 @@ section {
 		}
 
 		#intro button {
-			margin: 56px auto;
+			margin: 56px auto 0;
+		}
+
+		#intro button + p {
+			margin-top: 12px;
+			font-weight: 400;
+			font-size: 12px;
+			color: #999;
+			text-align: center;
 		}
 
 #intro + button {
@@ -264,7 +272,8 @@ section {
 
 			#schedule td {
 				display: inline-block;
-				font-weight: 700;
+
+				vertical-align: top;
 			}
 
 			#schedule td:nth-child(1) {
@@ -274,6 +283,8 @@ section {
 
 			#schedule td:nth-child(2) {
 				text-align: left;
+				font-weight: 700;
+				line-height: 24px;
 				margin-left: 12px;
 			}
 
