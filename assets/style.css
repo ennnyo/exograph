@@ -215,6 +215,11 @@ section {
 		height: auto;
 	}
 
+	#exhibition iframe {
+		width: 560px;
+		height: 315px;
+	}
+
 /* promoter */
 	#promoter {
 
@@ -391,6 +396,11 @@ section {
 @media (max-width: 640px){
 	#center {
 		width: 100vw;
+	}
+
+	#exhibition iframe {
+		width: 88vw;
+		height: 49vw;
 	}
 
 	#promoter .flex {
