@@ -400,7 +400,9 @@ section {
 
 	#exhibition iframe {
 		width: 88vw;
+		max-width: 560px;
 		height: 49vw;
+		max-height: 315px;
 	}
 
 	#promoter .flex {
